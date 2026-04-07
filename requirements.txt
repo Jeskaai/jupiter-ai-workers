@@ -4,3 +4,4 @@ mediapipe
 openai-whisper
 pika
 python-multipart
+torch

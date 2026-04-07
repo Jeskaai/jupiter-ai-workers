@@ -1,0 +1,45 @@
+#  Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+#  Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+
+#  Logs
+*.log
+
+# Audio files (no subir archivos pesados)
+*.wav
+*.mp3
+*.m4a
+*.mp4
+
+# Outputs / test results
+*.json
+
+# Temporary files
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+#Whisper / model cache (opcional pero recomendado)
+~/.cache/
+.cache/
